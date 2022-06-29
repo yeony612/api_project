@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+body {
+  margin: 0;
+}
+
+.header-banner {
+  display: flex;
+  background-image: url(./images/header-cat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 45rem;
+  justify-content: right;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 4rem;
+  text-align: center;
+  background-color: rgb(47, 230, 222, 0.5);
+  padding: 0 2rem;
+  margin-top: 30rem;
+  margin-right: 7rem;
+}
+
+.main {
+  display: flex;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-fact-button {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  background-color: #1c3041;
+  color: white;
+}
