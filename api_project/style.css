@@ -48,4 +48,10 @@ h1 {
 }
 
 .result {
+  padding: 5rem;
+  text-align: center;
+  border: 1px solid rgb(47, 230, 222);
+  border-radius: 3rem;
+  margin: 10rem 10rem;
+  background-color: #ddfff7;
 }
