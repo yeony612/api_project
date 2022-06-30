@@ -86,8 +86,8 @@ h3 {
 .gg-cta-icon {
   content: url("https://gumgum-content.s3.amazonaws.com/ads/com/native/cta_icon.svg");
   position: relative;
-  height: 11px;
-  margin-right: 5px;
+  height: 12px;
+  margin-right: 8px;
 }
 
 .cta {
@@ -99,7 +99,7 @@ h3 {
   border: none;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 2rem;
   transition: all 0.3s;
   z-index: -1;
