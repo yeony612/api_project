@@ -27,7 +27,7 @@ const generateImage = async () => {
   console.log("generate Image function working!");
   let response = await axios.get(`https://api.thecatapi.com/v1/images/search`);
   let image = response.data[0].url;
-  imageDiv.innerHTML = `<img src="${image}" width="600" height="100%"></img>`;
+  imageDiv.innerHTML = `<img src="${image}" width="400" height="400" class="image-clip"></img>`;
 };
 
 generateImage();

@@ -48,10 +48,26 @@ h1 {
 }
 
 .result {
-  padding: 5rem;
+  display: flex;
   text-align: center;
-  border: 1px solid rgb(47, 230, 222);
+  border: 1px solid #d0d6d8;
   border-radius: 3rem;
   margin: 10rem 10rem;
-  background-color: #ddfff7;
+  background: url("./images/result-bg.jpg");
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.image-clip {
+  object-fit: cover;
+  clip-path: circle(160px at center);
+}
+
+.image-wrapper {
+  padding: 4rem;
+  border-bottom-left-radius: 3rem;
+  border-top-left-radius: 3rem;
 }
