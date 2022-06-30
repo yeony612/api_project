@@ -7,7 +7,7 @@ const getFacts = async () => {
 
 getFacts();
 
-const catButton = document.querySelector(".cat-fact-button");
+const catButton = document.querySelector(".cta");
 const factDiv = document.querySelector(".cat-fact");
 const imageDiv = document.querySelector(".cat-image");
 
@@ -31,3 +31,6 @@ const generateImage = async () => {
 };
 
 generateImage();
+
+catButton.addEventListener("click", generateImage);
+catButton.addEventListener("click", generateFact);
